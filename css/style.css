@@ -1,3 +1,4 @@
+/* stile header */
 .header-section{
     height: 50px;
     background-color:rgb(0, 140, 255);
@@ -5,8 +6,40 @@
     background-image: url(../img/pattern.png);
 
 }
-
+/* ridimensinamento logo */
 #logo{
     width: 20%;
 
+}
+
+/* centraggio main */
+main{
+ width: 80%;
+ margin-left: 10%;
+
+}
+/* colorazione e spaziatura testo */
+.gray-text{
+    color:gray;
+    line-height: 0px;
+    margin-top: 5px;
+    
+}
+
+/* colorazione blu */
+.blu-text{
+    color: blue;
+}
+/* formattazzione titolo */
+h1{
+    margin-bottom: 0px;
+}
+/* testo descrizione foto */
+.photo-descript{
+    line-height: 1px;
+}
+
+/* testo evidenziato */
+.text-hilight{
+    background-color: yellow;
 }
