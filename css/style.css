@@ -8,7 +8,9 @@
 }
 /* ridimensinamento logo */
 #logo{
-    width: 20%;
+    height: 50px;
+    margin-left: 10%;
+    margin-right: 10%;
 
 }
 
@@ -42,4 +44,53 @@ h1{
 /* testo evidenziato */
 .text-hilight{
     background-color: yellow;
+}
+
+/* formattazione lista */
+.list-item{
+    margin: 3px;
+}
+/* formattazione tabella */
+.table{
+    text-align: left;
+}
+.t-head{
+    background-color:aquamarine;
+}
+.colonna1{
+    width: 400px;    
+}
+.colonna2{
+    width: 400px;
+}
+
+.colonna3{
+    width: 2000px;
+}
+td{
+    padding-top: 10px;
+}
+#first-line{
+    background-color: aqua;
+}
+#second-line{
+    background-color: azure;
+
+}
+#third-line{
+    background-color: aqua;
+}
+
+/* formattazione footer */
+
+footer{
+    background-color: #003399;
+    height: 50px;
+    text-align: center;
+}
+
+#footer-text{
+    color:aliceblue;
+    line-height: 50px;
+
 }
